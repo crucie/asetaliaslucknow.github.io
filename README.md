@@ -115,3 +115,6 @@ Now you are ready to use pnpm for managing your project's dependencies.
 ### Questions or Discussions
 
 Join our [Discord server](https://discord.gg/jKhDqHBbMy) for any questions, discussions, or further assistance.
+
+
+### We would be happy to invite everyone to make new commits and show their creativity on this website

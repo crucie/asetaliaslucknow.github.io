@@ -58,7 +58,46 @@ To contribute to this project or run it locally, follow these instructions:
    ```bash
    pnpm install
    ```
+   /- If pnpm install does not work, or pnpm is termed as a non recognized command then install pnpm
 
+3. To install pnpm, you can use the package manager that you currently have on your system. Below are instructions for different package managers:
+      
+   1- npm:
+         If you have npm installed, you can use it to install pnpm globally. Open your terminal and run:
+
+   ```bash
+   npm install -g pnpm
+   ```
+   This command installs pnpm globally, allowing you to use it from any directory.
+
+   2- Yarn:
+         If you prefer using yarn, you can install pnpm globally with:
+
+   ```bash
+   yarn global add pnpm
+   ```
+   This command installs pnpm globally using yarn.
+   
+   3. npx:
+      If you don't want to install pnpm globally, you can use npx to run pnpm without installation:
+
+   ```bash
+   npx pnpm install
+   ```
+   This command runs pnpm for the current project without the need for a global installation.
+
+After installation, you should be able to use pnpm commands globally or within your project.
+
+**#Verify Installation:**
+
+To verify that pnpm has been installed successfully, you can run the following command:
+
+   ```bash
+   pnpm --version
+   ```
+This should print the installed version of pnpm to the console.
+Now you are ready to use pnpm for managing your project's dependencies.
+      
 ### Local Development
 
 1. After installing the dependencies, start the local development server by running:
